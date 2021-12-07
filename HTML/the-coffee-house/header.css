@@ -1,0 +1,38 @@
+.container {
+  max-width: 1080px;
+  
+  margin: 0 auto;
+}
+.header {
+  background-color: black;
+}
+.logo {
+  height:  105px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right {
+  
+  display: flex;
+  
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  
+}
+
+.nav-item {
+  padding: 5px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  
+}

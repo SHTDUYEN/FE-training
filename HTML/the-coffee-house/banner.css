@@ -1,0 +1,53 @@
+.banner-slider {
+  position: relative;
+}
+.banner-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  justify-content: center;
+  max-width: 40%;
+  margin-right: auto;
+  margin-left: 35%;
+  height: 100%;
+}
+.banner-title {
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 1.5 ;
+}
+.banner-desc {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.scroll {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-btn {
+  margin-bottom: 20px;
+}
+
+.banner-text {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 450;
+}
+
+
+.mouse-icon {
+  height: 20px;
+}

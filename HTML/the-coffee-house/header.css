@@ -1,6 +1,5 @@
 .container {
-  max-width: 1080px;
-  
+  max-width: 1060px;
   margin: 0 auto;
 }
 .header {
@@ -14,12 +13,10 @@
   justify-content: space-between;
   align-items: center;
 }
-.header-right {
-  
-  display: flex;
-  
-}
 
+.header-right {
+  display: flex;
+}
 .nav-list {
   display: flex;
   list-style-type: none;
@@ -27,12 +24,12 @@
 }
 
 .nav-item {
-  padding: 5px;
+  margin: 10px;
 }
 .nav-link {
   color: white;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
-  
+  font-family: 'BebasNeue';
 }

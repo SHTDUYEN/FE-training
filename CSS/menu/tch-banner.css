@@ -1,0 +1,13 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-banner {
+  background-color: #ffb141;
+}
+.img {
+  width: 100%;
+  max-height: 1000px;
+  object-fit: cover;
+  padding: 15px 0;
+}

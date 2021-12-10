@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://file.hstatic.net/1000075078/file/svn-bebas_neue_thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://file.hstatic.net/1000075078/file/svn-bebas_neue_light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://file.hstatic.net/1000075078/file/svn-bebas_neue_regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://file.hstatic.net/1000075078/file/svn-bebas_neue_bold1.ttf) format('truetype');
+} 
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.header {
+  background-color:#ea8025;
+  
+}
+.logo {
+  height: 25px;
+  width: 100%;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-right {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  
+}
+.nav-item {
+  margin: 10px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'BebasNeue';
+}
+
+.header-cart , .header-account {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding-left: 0 5px;
+}

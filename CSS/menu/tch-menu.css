@@ -1,0 +1,113 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.menu-title {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 20px;
+  
+}
+
+.title {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 525;
+  padding-left: 20px;
+}
+
+.icon-title {
+  font-size: 25px;
+  color: #faa515;
+  
+}
+
+.menu-bottom {
+  padding: 30px 0;
+}
+.category-list {
+  display:flex;
+  justify-content: center;
+  
+}
+
+.img-category {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+}
+
+.category-wrapper {
+  width: 100px;
+  height: auto;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+}
+
+.category-title {
+  font-size: 12px;
+  color: #b2b2b2;
+  font-family: "Segoe UI", sans-serif;
+  padding: 10px 5px;
+  font-weight: 500;
+}
+
+.link-category {
+  text-decoration: none;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.menu-wrapper {
+  border-radius: 10px;
+  box-shadow: 6px 6px 15px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.menu {
+  width: 16.6%; 
+  padding: 15px;
+ 
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.menu-name {
+  padding-top: 10px;
+  min-height: 60px;
+}
+
+.img-buy-btn{
+  width: 32px;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+.menu-buy-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.menu-name {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 500;
+}
+.img-menu{
+  border-radius: 10px;
+}

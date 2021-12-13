@@ -1,0 +1,91 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.news-title {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 20px;
+  
+}
+
+.title {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 525;
+  padding-left: 20px;
+}
+
+.icon-title {
+  font-size: 25px;
+  color: #faa515;
+  
+}
+
+.news {
+  padding: 60px 0
+}
+
+.news-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: -15px;
+  
+}
+
+.news-wrapper {
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.1);
+}
+.news-item {
+  width: 25%; 
+  padding: 15px;
+   
+}
+
+.ig-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.img-news-btn {
+  width: 100px;
+  height: auto; 
+}
+
+.hashtag-desc {
+  padding: 10px 15px 0;
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 650;
+  line-height: 1.8;
+  max-height: 3.2rem;
+  
+}
+
+.sp-desc {
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 650;
+  line-height: 1.8;
+  max-height: 3.2rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.ig-link {
+  
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.img-news-btn{
+  margin: 25px 15px 15px;
+}
